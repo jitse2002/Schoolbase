@@ -1,0 +1,12 @@
+{
+    "require": {
+        "symfony/http-foundation": "^3.4",
+        "symfony/http-kernel": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Schoolbase\\Core\\": "app/src/schoolbase/core"
+        }
+
+    }
+}
