@@ -1,0 +1,35 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "steal-tools",
+    "build-dev": "steal-tools --watch"
+  },
+  "author": "Jitse2002",
+  "license": "ISC",
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "jquery": "^3.3.1",
+    "less": "^3.8.1",
+    "stache": "^0.1.0",
+    "steal": "^2.1.6",
+    "steal-less": "^1.3.4",
+    "steal-stache": "^4.1.2",
+    "steal-tools": "^2.0.6"
+  },
+  "steal": {
+    "plugins": [
+      "steal-css",
+      "steal-less",
+      "steal-stache",
+      "steal-tools"
+    ],
+    "paths": {
+
+      "css": "./css/*"
+
+    }
+  }
+}

@@ -1,0 +1,23 @@
+<div class="container-left"></div>
+
+<div class="container-right auth-container-left">
+
+    <div class="form authentication-form">
+
+        <label for="username">Gebruikersnaam:</label>
+        <input type="text" id="username">
+
+        <label for="password">Wachtwoord:</label>
+        <input type="password" id="password">
+
+        <button id="login" class="btn btn-login">Aanmelden!</button>
+
+        <div class="bottom">
+
+        <a href="/password/forgot">Wachtwoord vergeten?</a>
+
+        </div>
+
+    </div>
+
+</div>

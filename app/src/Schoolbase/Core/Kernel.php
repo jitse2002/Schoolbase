@@ -10,6 +10,7 @@ namespace Schoolbase\Core;
 
 
 use Schoolbase\Core\DB\DB;
+use Schoolbase\Core\Util\Resource;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Session\Session;
 
@@ -50,7 +51,11 @@ class Kernel
             switch ($this->request->getRequestUri()){
 
                 case '/login':
-                    echo 'Joepie!';
+                        Resource::callController('Authentication','index_action');
+                    break;
+
+                case '/auth/login/validate':
+                    Resource::callController('AuthRest', 'login_action');
                     break;
 
                 default:
