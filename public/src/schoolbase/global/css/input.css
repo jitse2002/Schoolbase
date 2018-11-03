@@ -1,0 +1,52 @@
+/*
+ * A project created by Jitsedev.be
+ *
+ * Author: Jitse Taels <jitse@jitsedev.be>
+ * Date: 2/11/18 10:50
+ */
+
+input, label, button {
+
+    display: block;
+
+}
+
+label {
+
+    padding-left:10%;
+
+}
+
+input {
+
+    width:80%;
+    height:20px;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    outline:none;
+    margin-left:10%;
+
+}
+
+select {
+
+    width:80%;
+    height:20px;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    outline:none;
+    margin-left:10%;
+
+}
+
+.checkbox {
+
+    padding-left:10%;
+
+}
+
+.checkbox input {
+
+    display: inline-block!important;
+
+}

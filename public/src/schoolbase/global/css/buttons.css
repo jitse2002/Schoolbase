@@ -1,0 +1,47 @@
+/*
+ * A project created by Jitsedev.be
+ *
+ * Author: Jitse Taels <jitse@jitsedev.be>
+ * Date: 2/11/18 10:49
+ */
+
+.buttons .btn {
+
+    width:20%;
+    height:25px;
+    margin-left:10%;
+    margin-top:10px;
+    border-radius:3px;
+    border: 1px solid #dadada;
+    outline:none;
+    cursor:pointer;
+
+}
+
+.btn.blue {
+
+    background: #120ff3;
+    color:white;
+
+}
+
+.btn.red {
+
+    background: #d00000;
+    color:white;
+
+}
+
+.btn.orange {
+
+    background: #d27312;
+    color:white;
+
+}
+
+.btn.green {
+
+    background: #009620;
+    color:white;
+
+}

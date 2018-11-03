@@ -22,9 +22,9 @@ class RestController extends BaseController
     public function output($data = [])
     {
 
-        $this->response->setContent(json_encode((array)$data));
+        header('Content-Type: application/json');
 
-        $this->response->headers->set('Content-Type', 'application/json');
+        $this->response->setContent(json_encode((array)$data));
 
         die($this->response->getContent());
 

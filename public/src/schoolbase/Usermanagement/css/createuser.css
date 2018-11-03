@@ -1,0 +1,29 @@
+/*
+ * A project created by Jitsedev.be
+ *
+ * Author: Jitse Taels <jitse@jitsedev.be>
+ * Date: 2/11/18 10:38
+ */
+
+.app .sidebar {
+
+    width:40%;
+    height:100vh;
+    background: #dadada;
+    float:left;
+
+}
+
+.app .content {
+
+    width: 60%;
+    height:100vh;
+    float:right;
+
+}
+
+.app p {
+
+    display: block;
+
+}

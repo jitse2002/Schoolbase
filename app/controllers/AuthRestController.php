@@ -13,7 +13,19 @@ class AuthRestController extends \Schoolbase\Core\Controller\RestController
 
         if(isset($_POST['username']) && isset($_POST['password']) && isset($_POST['token'])){
 
-            echo 'udjzdjsdjsd';
+            $user = new \Schoolbase\Core\User\User();
+
+            $username = $_POST['username'];
+            $password = $_POST['password'];
+
+            $login = $user->login();
+
+            $login->fill($username,$password);
+
+            if(!$login->run())
+                $this->output(['error' => ['msg' => 'Onjuiste gegevens!']]);
+            else
+                $this->output(['success' => ['msg' => 'Succesvol ingelogd!']]);
 
         }
 

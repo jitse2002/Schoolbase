@@ -25,6 +25,8 @@ abstract class BaseController
     protected $request;
     protected $response;
 
+    protected $parameters = [];
+
     protected function __construct()
     {
 
@@ -34,5 +36,11 @@ abstract class BaseController
     }
 
     public abstract function output($data);
+
+    public function parameter_array($param = []){
+
+        $this->parameters = $param;
+
+    }
 
 }

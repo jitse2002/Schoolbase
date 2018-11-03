@@ -1,0 +1,34 @@
+/*
+ * A project created by Jitsedev.be
+ *
+ * Author: Jitse Taels <jitse@jitsedev.be>
+ * Date: 3/11/18 10:18
+ */
+
+.error {
+
+    width:100%;
+    text-align: center;
+    min-height: 30px;
+    padding-top:1px;
+    padding-bottom:1px;
+
+}
+
+.error p {
+
+}
+
+.error.red{
+
+    background:#c31010;
+    color:white;
+
+}
+
+.error.green{
+
+    background:#00a989;
+    color:white;
+
+}

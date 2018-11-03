@@ -9,6 +9,8 @@
 namespace Schoolbase\Core\DB;
 
 
+use PDO;
+
 class DB
 {
 
@@ -49,11 +51,10 @@ class DB
     public function query($sql,$toEscape = []){
 
         $this->query = $this->connection->prepare($sql);
-
         $this->query->execute((array) $toEscape);
 
         $this->rowCount = $this->query->rowCount();
-        $this->data = $this->query->fetch(\PDO::FETCH_CLASS);
+        $this->data = $this->query->fetchAll(\PDO::FETCH_CLASS);
 
         return $this;
 

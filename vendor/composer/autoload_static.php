@@ -22,7 +22,12 @@ class ComposerStaticInit4f3964c69cd34593c1d90af49cb95007
             'Symfony\\Component\\HttpFoundation\\' => 33,
             'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Component\\Debug\\' => 24,
+            'Schoolbase\\Module\\' => 18,
             'Schoolbase\\Core\\' => 16,
+        ),
+        'R' => 
+        array (
+            'Ramsey\\Uuid\\' => 12,
         ),
         'P' => 
         array (
@@ -59,13 +64,31 @@ class ComposerStaticInit4f3964c69cd34593c1d90af49cb95007
         array (
             0 => __DIR__ . '/..' . '/symfony/debug',
         ),
+        'Schoolbase\\Module\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/modules',
+        ),
         'Schoolbase\\Core\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app/src/schoolbase/core',
         ),
+        'Ramsey\\Uuid\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ramsey/uuid/src',
+        ),
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+    );
+
+    public static $prefixesPsr0 = array (
+        'B' => 
+        array (
+            'Bramus' => 
+            array (
+                0 => __DIR__ . '/..' . '/bramus/router/src',
+            ),
         ),
     );
 
@@ -84,6 +107,7 @@ class ComposerStaticInit4f3964c69cd34593c1d90af49cb95007
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit4f3964c69cd34593c1d90af49cb95007::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit4f3964c69cd34593c1d90af49cb95007::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit4f3964c69cd34593c1d90af49cb95007::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit4f3964c69cd34593c1d90af49cb95007::$classMap;
 
         }, null, ClassLoader::class);

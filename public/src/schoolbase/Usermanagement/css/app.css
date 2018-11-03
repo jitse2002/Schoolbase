@@ -1,0 +1,81 @@
+.app .sidebar {
+
+    width:30%;
+    height: 100vh;
+    float:left;
+    background: #e4e4e4;
+
+}
+
+.app .content {
+
+    width:70%;
+    height: 100vh;
+    float:right;
+
+}
+
+.app .content .heading {
+
+    width:100%;
+    height:60px;
+    border-bottom:1px solid #dadada;
+
+}
+
+.content .heading .search-form {
+
+    padding-top: 15px;
+    width:30%;
+    display: inline-block;
+
+}
+
+.content .heading .search-form input {
+
+    outline:none;
+    width:80%;
+    height: 25px;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    margin-left:10px;
+
+}
+
+.content .heading .create-section {
+
+    float:right;
+    margin-right:10%;
+    margin-top:18px;
+
+}
+
+
+.content .heading .create-section a{
+
+    color:#2075de;
+    text-decoration:none;
+
+}
+
+.content .user-label {
+
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-bottom:1px solid #eaeaea;
+
+}
+
+.content .user-label #username {
+
+    display: inline-block;
+    padding-left:10%;
+
+}
+
+.content .user-label .editmode {
+
+    float:right;
+    padding-right:10%;
+
+}

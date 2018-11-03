@@ -65,6 +65,8 @@ class Kernel
 
         }else {
 
+            include_once BASEPATH . '/../app/src/Schoolbase/Core/routes.php';
+
         }
 
     }
