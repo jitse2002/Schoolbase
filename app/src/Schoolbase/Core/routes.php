@@ -55,5 +55,10 @@ $router->get('/skore', function(){
 
 });
 
+$router->get('/agenda', function (){
+
+    \Schoolbase\Core\Util\Resource::callModuleController('AgendaHome','Agenda','index');
+
+});
 
 $router->run();

@@ -23,7 +23,7 @@ class ComposerStaticInit4f3964c69cd34593c1d90af49cb95007
             'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Component\\Debug\\' => 24,
             'Schoolbase\\Module\\' => 18,
-            'Schoolbase\\Core\\' => 16,
+            'Schoolbase\\' => 11,
         ),
         'R' => 
         array (
@@ -68,9 +68,9 @@ class ComposerStaticInit4f3964c69cd34593c1d90af49cb95007
         array (
             0 => __DIR__ . '/../..' . '/app/modules',
         ),
-        'Schoolbase\\Core\\' => 
+        'Schoolbase\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/app/src/schoolbase/core',
+            0 => __DIR__ . '/../..' . '/app/src/schoolbase',
         ),
         'Ramsey\\Uuid\\' => 
         array (

@@ -14,7 +14,7 @@ return array(
     'Symfony\\Component\\EventDispatcher\\' => array($vendorDir . '/symfony/event-dispatcher'),
     'Symfony\\Component\\Debug\\' => array($vendorDir . '/symfony/debug'),
     'Schoolbase\\Module\\' => array($baseDir . '/app/modules'),
-    'Schoolbase\\Core\\' => array($baseDir . '/app/src/schoolbase/core'),
+    'Schoolbase\\' => array($baseDir . '/app/src/schoolbase'),
     'Ramsey\\Uuid\\' => array($vendorDir . '/ramsey/uuid/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
 );

@@ -7,7 +7,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Schoolbase\\Core\\": "app/src/schoolbase/core",
+            "Schoolbase\\": "app/src/schoolbase",
             "Schoolbase\\Module\\": "app/modules/"
         }
 
